@@ -1,0 +1,10 @@
+Name,Email,Phone,Age,Department,Salary
+John,john@gmail.com,9876543210,25,IT,35000
+Alice,alice@gmail.com,9876543211,30,HR,45000
+David,invalid-email,9876543212,22,Finance,30000
+Sarah,sarah@gmail.com,9876543213,65,IT,50000
+Peter,,9876543214,28,Sales,40000
+Robert,robert@gmail.com,12345,35,Finance,55000
+Mary,mary@gmail.com,9876543216,17,HR,25000
+James,james@gmail.com,9876543217,40,Marketing,60000
+John,john@gmail.com,9876543210,25,IT,35000

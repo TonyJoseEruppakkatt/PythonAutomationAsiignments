@@ -1,0 +1,34 @@
+{
+    "Name": {
+        "required": true
+    },
+    "Email": {
+        "required": true,
+        "type": "email"
+    },
+    "Phone": {
+        "required": true,
+        "type": "phone"
+    },
+    "Age": {
+        "required": true,
+        "type": "integer",
+        "min": 18,
+        "max": 60
+    },
+    "Department": {
+        "required": true,
+        "allowed_values": [
+            "HR",
+            "IT",
+            "Finance",
+            "Sales"
+        ]
+    },
+    "Salary": {
+        "required": true,
+        "type": "number",
+        "min": 10000,
+        "max": 200000
+    }
+}

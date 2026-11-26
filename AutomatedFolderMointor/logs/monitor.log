@@ -1,0 +1,10 @@
+2026-11-25 12:50:44,937 - INFO - Folder monitoring started.
+2026-11-25 12:51:07,655 - INFO - Folder monitoring stopped.
+2026-11-25 12:51:38,362 - INFO - Folder monitoring started.
+2026-11-25 12:52:05,643 - INFO - Processed: invoice.pdf -> Documents
+2026-11-25 12:52:30,120 - INFO - Processed: photo.png -> Images
+2026-11-25 12:53:28,188 - INFO - Folder monitoring stopped.
+2026-11-25 12:56:19,030 - INFO - Folder monitoring started.
+2026-11-25 16:54:50,723 - INFO - Folder monitoring started.
+2026-11-25 16:56:25,412 - INFO - Processed: python.py | Category: Programs | Destination: d:\PythonAutomationAsiignments\AutomatedFolderMointor\processed\Programs\python.py
+2026-11-25 17:12:16,381 - INFO - Folder monitoring stopped.

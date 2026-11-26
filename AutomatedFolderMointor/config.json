@@ -1,0 +1,48 @@
+{
+    "monitor_folder": "incoming",
+    "processed_folder": "processed",
+    "log_folder": "logs",
+    "log_file": "monitor.log",
+    "state_file": "processed_files.json",
+
+    "check_interval": 2,
+    "stable_checks": 3,
+
+    "notifications": {
+        "enabled": true,
+        "title": "File Processing Completed",
+        "timeout": 5
+    },
+
+    "categories": {
+        "Documents": {
+            "extensions": [".pdf", ".doc", ".docx", ".txt"],
+            "destination": "Documents"
+        },
+
+        "Spreadsheets": {
+            "extensions": [".xls", ".xlsx", ".csv"],
+            "destination": "Spreadsheets"
+        },
+
+        "Images": {
+            "extensions": [".jpg", ".jpeg", ".png", ".gif"],
+            "destination": "Images"
+        },
+
+        "Programs": {
+            "extensions": [".py", ".java", ".cpp", ".exe"],
+            "destination": "Programs"
+        },
+
+        "Videos": {
+            "extensions": [".mp4", ".avi", ".mkv"],
+            "destination": "Videos"
+        }
+    },
+
+    "default_category": {
+        "name": "Others",
+        "destination": "Others"
+    }
+}

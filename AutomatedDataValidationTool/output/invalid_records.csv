@@ -1,0 +1,6 @@
+Name,Email,Phone,Age,Department,Salary,Validation Errors
+David,invalid-email,9876543212,22,Finance,30000,Email: Invalid email format
+Peter,,9876543214,28,Sales,40000,Email: Mandatory field is missing
+Robert,robert@gmail.com,12345,35,Finance,55000,Phone: Invalid phone number
+Mary,mary@gmail.com,9876543216,17,HR,25000,Age: Value outside allowed range
+John,john@gmail.com,9876543210,25,IT,35000,Duplicate record found

@@ -1,0 +1,27 @@
+{
+    "Customer_Name": {
+        "required": true
+    },
+    "Email": {
+        "required": true,
+        "type": "email"
+    },
+    "Phone": {
+        "required": true,
+        "type": "phone"
+    },
+    "Age": {
+        "required": true,
+        "type": "integer",
+        "min": 18,
+        "max": 100
+    },
+    "Membership": {
+        "required": true,
+        "allowed_values": [
+            "Silver",
+            "Gold",
+            "Platinum"
+        ]
+    }
+}

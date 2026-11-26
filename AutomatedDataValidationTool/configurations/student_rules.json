@@ -1,0 +1,29 @@
+{
+    "Student_Name": {
+        "required": true
+    },
+    "Email": {
+        "required": true,
+        "type": "email"
+    },
+    "Age": {
+        "required": true,
+        "type": "integer",
+        "min": 5,
+        "max": 25
+    },
+    "Gender": {
+        "required": true,
+        "allowed_values": [
+            "Male",
+            "Female",
+            "Other"
+        ]
+    },
+    "Marks": {
+        "required": true,
+        "type": "number",
+        "min": 0,
+        "max": 100
+    }
+}
